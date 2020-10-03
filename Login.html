@@ -41,7 +41,7 @@
               var atpos=inputs[i].indexOf("@");
               var dotpos=inputs[i].lastIndexOf(".");
               if (atpos<1 || dotpos<atpos+2 || dotpos+2>=inputs[i].length)
-                document.getElementById('errEmail').innerHTML = "<span style='color: red'>Enter a valid email address!</span>";
+                document.getElementById('errEmail').innerHTML = "<span style='color: yellow'>Enter a valid email address!</span>";
               else
                 document.getElementById(div).innerHTML = "OK!";
             }
